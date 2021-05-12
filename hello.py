@@ -44,7 +44,7 @@ def upload_file1():
         except:
             abort(500)
 
-        return render_template('/templates/shit.html')
+        return render_template('/templates/shift.html')
     else:
         return 'GeT'
 
