@@ -1,0 +1,5 @@
+google-cloud-speech
+pydub
+nltk
+beautifulsoup4
+gtts
