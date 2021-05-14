@@ -21,7 +21,7 @@ def google_transcribe(audio_file_name):
 
     upload_blob(bucket_name, source_file_name, destination_blob_name)
 
-    gcs_uri = 'gs://' + audio_file_name
+    gcs_uri = 'gs://' + bucket_name + '/' + audio_file_name
     transcript = ''
 
     client = speech.SpeechClient()
