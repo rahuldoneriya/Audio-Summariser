@@ -2,4 +2,5 @@ google-cloud-speech
 pydub
 nltk
 beautifulsoup4
+vaderSentiment
 gtts
